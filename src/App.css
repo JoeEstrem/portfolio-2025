@@ -1,3 +1,11 @@
+.main-page-container {
+  display: flex;
+}
+
+.display-container {
+  margin-left: 240px;
+}
+
 .App {
   text-align: center;
 }
