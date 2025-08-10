@@ -1,3 +1,32 @@
+h1 {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: black;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  grid-column: span 4;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.p-note {
+  font-size: 12px;
+  font-weight: lighter;
+  color: black;
+  font-style: italic;
+}
+
 .main-page-container {
   display: flex;
 }
@@ -6,8 +35,26 @@
   margin-left: 240px;
 }
 
+.img-square-4 {
+  background-color: gray;
+  aspect-ratio: 1/1;
+  grid-column: span 3;
+}
+
+.img-rectangle-2 {
+  background-color: gray;
+  aspect-ratio: 1/1.5;
+  grid-column: span 6;
+}
+
+.img-rectangle-2-hor {
+  background-color: gray;
+  aspect-ratio: 1/.64;
+  grid-column: span 6;
+}
+
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -43,4 +90,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  margin-top: 64px;
+  height: 400px;
+  grid-column: span 12;
+  background-color: black;
+  color: white;
 }
