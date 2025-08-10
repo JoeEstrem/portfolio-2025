@@ -1,0 +1,67 @@
+
+.landing {
+  background-image: url(/src/imgs/TestImage.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-column: span 12;
+  aspect-ratio: 12 / 5;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.white-text-box {
+  margin-top: 0px;
+  margin-right: 0px;
+  padding: 32px;
+  background-color: white;
+  grid-column: span 5;
+  width: 40%;
+  text-align: left;
+}
+
+.text-block {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  grid-column: span 12;
+  align-items: end;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  padding: 0 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.col-12 {
+  grid-column: span 12;
+}
+
+.col-6 {
+  grid-column: span 6;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: left;
+}
