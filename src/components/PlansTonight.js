@@ -74,11 +74,6 @@ function PlansTonight() {
         <div class="img-rectangle-2-hor"></div>
         <div class="img-rectangle-2-hor"></div>
 
-
-
-        <div class="footer">
-          <p>This is the footer</p>
-        </div>
       </div>
   );
 }

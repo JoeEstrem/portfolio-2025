@@ -5,6 +5,7 @@ import Kohls from './components/Kohls';
 import HousingJapan from './components/HousingJapan';
 import Kollab from './components/Kollab';
 import PlansTonight from './components/PlansTonight';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
             <Route path="/Kollab" element={<Kollab />} />
             <Route path="/PlansTonight" element={<PlansTonight />} />
           </Routes>
+
+          <div>
+           <Footer />
+          </div>
+
         </div>
       </div>
   </div>

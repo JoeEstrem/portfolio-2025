@@ -1,0 +1,13 @@
+.footer-container {
+  display: block;
+  grid: none;
+  background-color: black;
+  width: 100%;
+  aspect-ratio: 1 / .32;
+  margin-top: 64px;
+  padding: 32px;
+}
+
+.text-white {
+  color: white;
+}
