@@ -13,7 +13,7 @@ function Kohls() {
         <div class="landing">
           <div class="white-text-box">
             <p>Kohl’s is one of the leading American retailers, dedicated to supporting families through life’s everyday moments.</p>
-            <p class="p-note">Social media, Print media</p>
+            <p class="p-note">Social media, print media</p>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function Kohls() {
         <div class="img-square-4"></div>
 
         <div class="col-12">
-          <h3>Prodcut Highlights</h3>
+          <h3>Product Highlights</h3>
           <p class="p-note">Pinterest Pins</p>
         </div>
         <div class="img-rectangle-2"></div>

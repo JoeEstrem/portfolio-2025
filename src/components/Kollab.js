@@ -12,8 +12,8 @@ function Kollab() {
 
         <div class="landing">
           <div class="white-text-box">
-            <p>Luxury real estate in Japan.</p>
-            <p class="p-note">Branding, Social media, Print & digital marketing</p>
+            <p>Find the perfect space for you work. Kollab is a curated online marketplace where artists and small gallery owners can collaborate to share art with communities.</p>
+            <p class="p-note">Identity design, web design, front-end development</p>
           </div>
         </div>
 
