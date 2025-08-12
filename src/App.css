@@ -1,26 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
 h1 {
+  font-family: figtree;
   font-size: 64px;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 p {
+  font-family: figtree;
   font-size: 16px;
   color: black;
 }
 
 h2 {
+  font-family: figtree;
   font-size: 48px;
   font-weight: bolder;
   grid-column: span 4;
 }
 
 h3 {
+  font-family: figtree;
   font-size: 32px;
   font-weight: bolder;
   margin-bottom: 0px;
 }
 
 .p-note {
+  font-family: figtree;
   font-size: 12px;
   font-weight: lighter;
   color: black;
