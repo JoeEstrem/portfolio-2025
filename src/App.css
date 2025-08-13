@@ -36,6 +36,7 @@ h3 {
 
 .main-page-container {
   display: flex;
+  background-color: #F6F6F6;
 }
 
 .display-container {
@@ -52,12 +53,16 @@ h3 {
   background-color: gray;
   aspect-ratio: 1/1.5;
   grid-column: span 6;
+  width: 100%;
+  object-fit: cover;
 }
 
 .img-rectangle-2-hor {
   background-color: gray;
   aspect-ratio: 1/.64;
   grid-column: span 6;
+  width: 100%;
+  object-fit: cover;
 }
 
 .App {

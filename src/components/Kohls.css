@@ -1,11 +1,11 @@
 
-.landing {
-  background-image: url(/src/imgs/TestImage.jpeg);
+.landing-kohls {
+  background-image: url(/src/imgs/kohls/kohls-landing-image.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: center 37%;
   background-repeat: no-repeat;
   grid-column: span 12;
-  aspect-ratio: 12 / 5;
+  aspect-ratio: 12 / 5.75;
 
   display: flex;
   justify-content: flex-end;
@@ -16,7 +16,7 @@
   margin-top: 0px;
   margin-right: 0px;
   padding: 32px;
-  background-color: white;
+  background-color: #f6f6f6;
   grid-column: span 5;
   width: 40%;
   text-align: left;
@@ -30,6 +30,7 @@
   align-items: end;
   margin-top: 80px;
   margin-bottom: 80px;
+  background-color: #f6f6f6;
 }
 
 .grid {
