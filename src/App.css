@@ -36,7 +36,7 @@ h3 {
 
 .main-page-container {
   display: flex;
-  background-color: #F6F6F6;
+  background-color: #ffffff;
 }
 
 .display-container {
@@ -47,6 +47,18 @@ h3 {
   background-color: gray;
   aspect-ratio: 1/1;
   grid-column: span 3;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-3-col {
+  background-color: gray;
+  grid-column: span 3;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
 .img-rectangle-2 {
@@ -55,6 +67,7 @@ h3 {
   grid-column: span 6;
   width: 100%;
   object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
 .img-rectangle-2-hor {
@@ -63,6 +76,16 @@ h3 {
   grid-column: span 6;
   width: 100%;
   object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-4-col {
+  background-color: gray;
+  aspect-ratio: 1/1.5;
+  grid-column: span 4;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
 }
 
 .App {

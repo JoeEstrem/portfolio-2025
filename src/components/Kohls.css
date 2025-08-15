@@ -16,7 +16,7 @@
   margin-top: 0px;
   margin-right: 0px;
   padding: 32px;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   grid-column: span 5;
   width: 40%;
   text-align: left;
@@ -30,7 +30,7 @@
   align-items: end;
   margin-top: 80px;
   margin-bottom: 80px;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
 }
 
 .grid {

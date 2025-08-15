@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export default function useFadeInOnScroll(selector, threshold = 0.80) {
+export default function useFadeInOnScroll(selector, threshold = 0.40) {
   useEffect(() => {
     const elements = document.querySelectorAll(selector);
 
