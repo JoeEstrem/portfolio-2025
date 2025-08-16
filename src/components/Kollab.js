@@ -1,60 +1,105 @@
 import "./Kollab.css";
 import useFadeInOnScroll from '../components/FadeInOnScroll';
+import NGaER1 from '../imgs/kohls/NGaET-1.mp4';
+import NGaER2 from '../imgs/kohls/NGaET-2.mp4';
+import NGaER3 from '../imgs/kohls/NGaET-3.mp4';
+import NGaER4 from '../imgs/kohls/NGaET-4.mp4';
+import SBC1 from '../imgs/kohls/SBC-1-1.mp4';
+import SBC4 from '../imgs/kohls/SBC-4-1.mp4';
+
 
 import React from 'react';
 
 function Kollab() {
-  useFadeInOnScroll('.fade-in-element');
+useFadeInOnScroll('.fade-in-element');
 
   return (
-      <div class="grid">
+      <div className="grid">
 
-        <div class="col-12 fade-in-element">
+        <div className="col-12 fade-in-element">
           <h1>Kollab</h1>
         </div>
 
-        <div class="landing fade-in-element">
-          <div class="white-text-box">
-            <p>Find the perfect space for you work. Kollab is a curated online marketplace where artists and small gallery owners can collaborate to share art with communities.</p>
-            <p class="p-note">Identity design, web design, front-end development</p>
+        <div className="landing-kohls fade-in-element">
+          <div className="white-text-box">
+            <p>Find the perfect space for your work. Kollab is a curated online marketplace where artists and small gallery owners can collaborate to share art with communities.</p>
+            <p className="p-note">Identity design, web design, front-end development</p>
           </div>
         </div>
 
-        <div class="text-block fade-in-element">
-          <div class="col-4">
+        <div className="text-block fade-in-element">
+          <div className="col-4">
             <h2>Brand Identity</h2>
           </div>
-          <div class="col-4">
+          <div className="col-4">
             <p>When people think of art they imagine bursts of colors. When people think of galleries they image a clean pristine experience. The identity of Kollab combines those two concepts together to create a fun yet high-class presence.</p>
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 fade-in-element">
           <h3>New Gifts at Every Turn</h3>
           <p class="p-note">Facebook carousel</p>
         </div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
 
-        <div class="col-12">
-          <h3>Savannah Bee Company</h3>
+         <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+          <source src={NGaER1} type="video/mp4" />
+        </video>
+        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+          <source src={NGaER2} type="video/mp4" />
+        </video>
+        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+          <source src={NGaER3} type="video/mp4" />
+        </video>
+        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+          <source src={NGaER4} type="video/mp4" />
+        </video>
+
+
+        <div class="col-12 fade-in-element">
+          <h3 class="fade-in-element">Savannah Bee Company</h3>
           <p class="p-note">Instagram story</p>
         </div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
-        <div class="img-square-4"></div>
+        <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
+          <source src={SBC1} type="video/mp4" />
+        </video>
+         <img
+            src={require('../imgs/kohls/SBC-2.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-3-col fade-in-element"
+          />
+         <img
+            src={require('../imgs/kohls/SBC-3.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
+            <source src={SBC4} type="video/mp4" />
+          </video>
 
-        <div class="col-12">
-          <h3>Prodcut Highlights</h3>
+        <div class="col-12 fade-in-element">
+          <h3>Product Highlights</h3>
           <p class="p-note">Pinterest Pins</p>
         </div>
-        <div class="img-rectangle-2"></div>
-        <div class="img-rectangle-2"></div>
 
-        <div class="text-block">
+
+          <img
+            src={require('../imgs/kohls/kohls-pinterest-pin-15PO-mens-jackets.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-4-col fade-in-element"
+          />
+         <img
+            src={require('../imgs/kohls/kohls-pinterest-pin-25PO-mens-style.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-4-col fade-in-element"
+          />
+          <img
+            src={require('../imgs/kohls/kohls-pinterest-pin-shop-jason-wu.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-4-col fade-in-element"
+          />
+
+
+        <div class="text-block fade-in-element">
           <div class="col-4">
             <h2>Print Media</h2>
           </div>
@@ -63,20 +108,36 @@ function Kollab() {
           </div>
         </div>
 
-        <div class="col-12">
+        <div class="col-12 fade-in-element">
           <h3>Welcome to the Neighborhood</h3>
           <p class="p-note">Home mailer</p>
         </div>
-        <div class="img-rectangle-2-hor"></div>
-        <div class="img-rectangle-2-hor"></div>
 
-        <div class="col-12">
+          <img
+            src={require('../imgs/kohls/welcome-to-the-neighborhood-front.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-2-hor fade-in-element"
+          />
+          <img
+            src={require('../imgs/kohls/welcome-to-the-neighborhood-back.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-2-hor fade-in-element"
+          />
+
+        <div class="col-12 fade-in-element">
           <h3>Home Sweet (New) Home</h3>
           <p class="p-note">Home mailer</p>
         </div>
-        <div class="img-rectangle-2-hor"></div>
-        <div class="img-rectangle-2-hor"></div>
-
+         <img
+            src={require('../imgs/kohls/Home-sweet-new-home-front.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-2-hor fade-in-element"
+          />
+          <img
+            src={require('../imgs/kohls/Home-sweet-new-home-back.jpg')}
+            alt="Kohl's 15% off mens jackets Pinterest pin"
+            className="img-rectangle-2-hor fade-in-element"
+          />
 
       </div>
   );
