@@ -70,7 +70,7 @@ h3 {
   background-color: #ffffff;
 }
 
-.img-square-4 {
+.img-square-3-col {
   background-color: gray;
   aspect-ratio: 1/1;
   grid-column: span 3;
@@ -113,45 +113,6 @@ h3 {
   width: 100%;
   object-fit: cover;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-}
-
-.App {
-  text-align: left;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 .footer {
@@ -203,4 +164,92 @@ h3 {
 
 .col-12 {
   grid-column: span 12;
+}
+
+/*/ Features /*/
+
+.hide-tablet-size {
+  display: block;
+}
+
+/*/ Tablet /*/
+
+@media (max-width: 1023px) {
+
+.img-square-3-col {
+  background-color: gray;
+  aspect-ratio: 1/1;
+  grid-column: span 6;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-3-col {
+  background-color: gray;
+  grid-column: span 6;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-4-col {
+  background-color: gray;
+  aspect-ratio: 1/1.5;
+  grid-column: span 6;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-2-hor {
+  background-color: gray;
+  aspect-ratio: 1/.64;
+  grid-column: span 12;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hide-tablet-size {
+  display: none;
+}
+
+}
+
+/*/ Mobile /*/
+
+@media (max-width: 743px) {
+.img-square-3-col {
+  background-color: gray;
+  aspect-ratio: 1/1;
+  grid-column: span 12;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-3-col {
+  background-color: gray;
+  grid-column: span 12;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.img-rectangle-4-col {
+  background-color: gray;
+  aspect-ratio: 1/1.5;
+  grid-column: span 12;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hide-tablet-size {
+  display: block;
+}
+
 }

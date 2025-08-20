@@ -42,16 +42,16 @@ function Kohls() {
           <p class="p-note">Facebook carousel</p>
         </div>
 
-         <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+         <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER1} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER2} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER3} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER4} type="video/mp4" />
         </video>
 
@@ -96,7 +96,7 @@ function Kohls() {
           <img
             src={require('../imgs/kohls/kohls-pinterest-pin-shop-jason-wu.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-4-col fade-in-element"
+            className="img-rectangle-4-col fade-in-element hide-tablet-size"
           />
 
 

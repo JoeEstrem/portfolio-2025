@@ -41,16 +41,16 @@ useFadeInOnScroll('.fade-in-element');
           <p class="p-note">Facebook carousel</p>
         </div>
 
-         <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+         <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER1} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER2} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER3} type="video/mp4" />
         </video>
-        <video autoPlay loop muted playsInline className="img-square-4 fade-in-element">
+        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
           <source src={NGaER4} type="video/mp4" />
         </video>
 
