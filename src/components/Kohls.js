@@ -86,17 +86,17 @@ function Kohls() {
           <img
             src={require('../imgs/kohls/kohls-pinterest-pin-15PO-mens-jackets.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-4-col fade-in-element"
+            className="img-rectangle-4-col-shadow fade-in-element"
           />
          <img
             src={require('../imgs/kohls/kohls-pinterest-pin-25PO-mens-style.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-4-col fade-in-element"
+            className="img-rectangle-4-col-shadow fade-in-element"
           />
           <img
             src={require('../imgs/kohls/kohls-pinterest-pin-shop-jason-wu.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-4-col fade-in-element hide-tablet-size"
+            className="img-rectangle-4-col-shadow fade-in-element hide-tablet-size"
           />
 
 

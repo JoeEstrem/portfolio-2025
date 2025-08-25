@@ -1,11 +1,5 @@
 import "./Kollab.css";
 import useFadeInOnScroll from '../components/FadeInOnScroll';
-import NGaER1 from '../imgs/kohls/NGaET-1.mp4';
-import NGaER2 from '../imgs/kohls/NGaET-2.mp4';
-import NGaER3 from '../imgs/kohls/NGaET-3.mp4';
-import NGaER4 from '../imgs/kohls/NGaET-4.mp4';
-import SBC1 from '../imgs/kohls/SBC-1-1.mp4';
-import SBC4 from '../imgs/kohls/SBC-4-1.mp4';
 
 
 import React from 'react';
@@ -20,10 +14,10 @@ useFadeInOnScroll('.fade-in-element');
           <h1>Kollab</h1>
         </div>
 
-        <div className="landing-kohls fade-in-element">
+        <div className="landing-kollab fade-in-element">
           <div className="white-text-box">
             <p>Find the perfect space for your work. Kollab is a curated online marketplace where artists and small gallery owners can collaborate to share art with communities.</p>
-            <p className="p-note">Identity design, web design, front-end development</p>
+            <p className="p-note">Front-end development, identity design, UI/UX design, web design</p>
           </div>
         </div>
 
@@ -36,50 +30,32 @@ useFadeInOnScroll('.fade-in-element');
           </div>
         </div>
 
-        <div class="col-12 fade-in-element">
-          <h3>New Gifts at Every Turn</h3>
-          <p class="p-note">Facebook carousel</p>
+        <img
+          src={require('../imgs/kollab/Kollab-Logo-gradient.png')}
+          alt="Kollab - find the perfect place for your work. Logo."
+          className="img-rectangle-8-col fade-in-element"
+        />
+        <img
+          src={require('../imgs/kollab/kollab-brand-identity-mockup.jpg')}
+          alt="Kollab - find the perfect place for your work. Logo."
+          className="img-rectangle-4-col fade-in-element"
+        />
+
+        <div className="text-block fade-in-element">
+          <div className="col-4">
+            <h2>Web Design</h2>
+          </div>
+          <div className="col-4">
+            <p>Design and devloped. </p>
+          </div>
         </div>
 
-         <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
-          <source src={NGaER1} type="video/mp4" />
-        </video>
-        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
-          <source src={NGaER2} type="video/mp4" />
-        </video>
-        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
-          <source src={NGaER3} type="video/mp4" />
-        </video>
-        <video autoPlay loop muted playsInline className="img-square-3-col fade-in-element">
-          <source src={NGaER4} type="video/mp4" />
-        </video>
 
-
-        <div class="col-12 fade-in-element">
-          <h3 class="fade-in-element">Savannah Bee Company</h3>
-          <p class="p-note">Instagram story</p>
-        </div>
-        <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
-          <source src={SBC1} type="video/mp4" />
-        </video>
-         <img
-            src={require('../imgs/kohls/SBC-2.jpg')}
-            alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-3-col fade-in-element"
-          />
-         <img
-            src={require('../imgs/kohls/SBC-3.jpg')}
-            alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-3-col fade-in-element"
-          />
-          <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
-            <source src={SBC4} type="video/mp4" />
-          </video>
-
-        <div class="col-12 fade-in-element">
-          <h3>Product Highlights</h3>
-          <p class="p-note">Pinterest Pins</p>
-        </div>
+           <img
+          src={require('../imgs/kollab/Kollab-landing-1.jpg')}
+          alt="Kollab - find the perfect place for your work. Logo."
+          className="img-rectangle-8-col fade-in-element"
+        />
 
 
           <img
