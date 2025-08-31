@@ -30,37 +30,72 @@ useFadeInOnScroll('.fade-in-element');
           </div>
         </div>
 
-        <img
-          src={require('../imgs/kollab/Kollab-Logo-gradient.png')}
-          alt="Kollab - find the perfect place for your work. Logo."
-          className="img-rectangle-8-col fade-in-element"
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Home.png')}
+            alt="WaniKani - Home screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Home</p>
+        </div>
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Profile.png')}
+            alt="WaniKani - Profile screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Profile</p>
+        </div>
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Kanji.png')}
+            alt="WaniKani - Kanji question screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Question (Kanji)</p>
+        </div>
+      <div className="image-wth-caption col-3">
+       <img
+          src={require('../imgs/wanikani/WaniKani-Pause.png')}
+          alt="WaniKani - Pause screen concept"
+          className="img-rectangle-3-col fade-in-element"
         />
-        <img
-          src={require('../imgs/kollab/kollab-brand-identity-mockup.jpg')}
-          alt="Kollab - find the perfect place for your work. Logo."
-          className="img-rectangle-4-col fade-in-element"
-        />
-
-        <div className="text-block fade-in-element">
-          <div className="col-4">
-            <h2>Built for <br />Kollab-oration</h2>
-          </div>
-          <div className="col-4">
-            <p>Designed to connect artists and galleries effortlessly, Kollab is a marketplace where creativity and opportunity meet. Artists can browse spaces, view venue photos, and apply with their work in just a few clicks. Gallery owners can showcase their venues, set rental details, and review applications with ease. </p>
-          </div>
+        <p className="caption">Pause</p>
         </div>
 
-        <img
-          src={require('../imgs/kollab/Kollab-Home-384kb.jpg')}
-          alt="Kollab - Home screen design."
-          className="img-rectangle-12-col-shadow fade-in-element"
-        />
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Vocab.png')}
+            alt="WaniKani - Vocab screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Question (Vocab)</p>
+        </div>
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Correct.png')}
+            alt="WaniKani - Correct answer screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Correct answer</p>
+        </div>
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Wrong.png')}
+            alt="WaniKani - Wrong answer screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Wrong answer</p>
+        </div>
+        <div className="image-wth-caption col-3">
+          <img
+            src={require('../imgs/wanikani/WaniKani-Radical.png')}
+            alt="WaniKani - Radical question screen concept"
+            className="img-rectangle-3-col fade-in-element"
+          />
+          <p className="caption">Question (Radical)</p>
+        </div>
 
-        <img
-          src={require('../imgs/kollab/Kollab-LogIn.jpg')}
-          alt="Kollab - Login screen design."
-          className="img-rectangle-12-col-shadow fade-in-element"
-        />
 
       </div>
   );

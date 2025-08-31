@@ -60,20 +60,20 @@ function Kohls() {
           <h3 class="fade-in-element">Savannah Bee Company</h3>
           <p class="p-note">Instagram story</p>
         </div>
-        <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
+        <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element box-shadow">
           <source src={SBC1} type="video/mp4" />
         </video>
          <img
             src={require('../imgs/kohls/SBC-2.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-3-col fade-in-element"
+            className="img-rectangle-3-col fade-in-element box-shadow"
           />
          <img
             src={require('../imgs/kohls/SBC-3.jpg')}
             alt="Kohl's 15% off mens jackets Pinterest pin"
-            className="img-rectangle-3-col fade-in-element"
+            className="img-rectangle-3-col fade-in-element box-shadow"
           />
-          <video autoPlay loop muted playsInline className="img-rectangle-3-col fade-in-element">
+          <video autoPlay loop muted playsInline className="img-rectangle-3-col box-shadow fade-in-element">
             <source src={SBC4} type="video/mp4" />
           </video>
 
