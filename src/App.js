@@ -5,6 +5,7 @@ import Kohls from './components/Kohls';
 import HousingJapan from './components/HousingJapan';
 import Kollab from './components/Kollab';
 import PlansTonight from './components/PlansTonight';
+import WaniKani from './components/WaniKani';
 import Footer from './components/Footer';
 
 import ScrollToTop from "./components/ScrollToTop";
@@ -22,6 +23,7 @@ function App() {
             <Route path="/HousingJapan" element={<HousingJapan />} />
             <Route path="/Kollab" element={<Kollab />} />
             <Route path="/PlansTonight" element={<PlansTonight />} />
+            <Route path="/WaniKani" element={<WaniKani />} />
           </Routes>
           <div>
            <Footer />
