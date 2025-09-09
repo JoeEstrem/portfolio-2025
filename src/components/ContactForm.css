@@ -1,0 +1,17 @@
+.text-confirmation {
+  color: green;
+}
+
+.text-error {
+  color: red;
+}
+
+.text-form {
+  font-family: figtree;
+  color: white;
+  font-size: 20px;
+}
+
+.contact-form {
+  width: 100%;
+}
