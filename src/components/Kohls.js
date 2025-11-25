@@ -33,7 +33,7 @@ function Kohls() {
             <h2>Social Media</h2>
           </div>
           <div className="col-4">
-            <p>I started with creative ideation, followed by collaborating with a photographer to capture the necessary visuals. I then handled final editing and compiled the content into completed assets.</p>
+            <p>Starting with creative ideation, followed by collaborating with a photographer to capture the necessary visuals. I then handled final editing and compiled the content into completed assets.</p>
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function Kohls() {
             <h2>Print Media</h2>
           </div>
           <div class="col-4">
-            <p>I started with creative ideation, followed by collaborating with a photographer to capture the necessary visuals. I then handled final editing and compiled the content into completed assets.</p>
+            <p>Highlighted new product offerings with cheerful, approachable imagery, inspiring recipients to imagine Kohl's as part of their own lifestyle.</p>
           </div>
         </div>
 

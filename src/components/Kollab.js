@@ -1,11 +1,13 @@
 import "./Kollab.css";
 import useFadeInOnScroll from '../components/FadeInOnScroll';
+import useFadeInOnScrollOversized from "./FadeInOnScrollOversized";
 
 
 import React from 'react';
 
 function Kollab() {
 useFadeInOnScroll('.fade-in-element');
+useFadeInOnScrollOversized('.fade-in-element-oversized');
 
   return (
       <div className="grid">
@@ -17,7 +19,7 @@ useFadeInOnScroll('.fade-in-element');
         <div className="landing-kollab fade-in-element">
           <div className="white-text-box">
             <p>Find the perfect space for your work. Kollab is a curated online marketplace where artists and gallery owners can collaborate to share art with communities.</p>
-            <p className="p-note">Front-end development, identity design, UI/UX design, web design</p>
+            <p className="p-note">Front-end development, creative direction, identity design, UI/UX design, web design</p>
           </div>
         </div>
 
@@ -53,7 +55,7 @@ useFadeInOnScroll('.fade-in-element');
         <img
           src={require('../imgs/kollab/Kollab-Home-384kb.jpg')}
           alt="Kollab - Home screen design."
-          className="img-rectangle-12-col-shadow fade-in-element"
+          className="img-rectangle-12-col-shadow fade-in-element-oversized"
         />
 
         <img

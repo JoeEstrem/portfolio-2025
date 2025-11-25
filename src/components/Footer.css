@@ -1,11 +1,13 @@
 .footer-container {
   display: block;
   grid: none;
-  background-color: black;
+  background-color: white;
   width: 100%;
-  aspect-ratio: 1 / .32;
+  aspect-ratio: 1 / .1;
   margin-top: 64px;
 }
+
+/* wwas 1 / .32 */
 
 .text-white {
   color: white;

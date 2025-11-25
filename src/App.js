@@ -1,14 +1,14 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScrollToTop from "./components/ScrollToTop";
 import SideNav from './components/SideNav';
 import Kohls from './components/Kohls';
 import HousingJapan from './components/HousingJapan';
 import Kollab from './components/Kollab';
-import PlansTonight from './components/PlansTonight';
 import WaniKani from './components/WaniKani';
+import PlansTonight from './components/PlansTonight';
 import Footer from './components/Footer';
 
-import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             <Route path="/WaniKani" element={<WaniKani />} />
           </Routes>
           <div>
-           <Footer />
+            <Footer />
           </div>
 
         </div>

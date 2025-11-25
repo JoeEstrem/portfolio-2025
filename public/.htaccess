@@ -1,4 +1,9 @@
 <IfModule mod_rewrite.c>
+  # Force HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # React routing
   RewriteEngine On
   RewriteBase /
   RewriteRule ^index\.html$ - [L]
