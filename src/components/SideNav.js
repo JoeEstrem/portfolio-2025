@@ -10,7 +10,7 @@ function SideNav() {
     <div class="sidenav">
 
       <div>
-        <h4>Joe Estrem</h4>
+        <h4><NavLink to="/" className={({ isActive }) => isActive? "category-link-h4 active-link-h4" : "category-link-h4"}>Joe Estrem</NavLink></h4>
         <p><NavLink to="/HousingJapan" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Housing Japan</NavLink></p>
         <p><NavLink to="/Kohls" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Kohl's</NavLink></p>
         <p><NavLink to="/Kollab" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Kollab</NavLink></p>

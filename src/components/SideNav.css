@@ -41,3 +41,25 @@
   color: rgb(33, 88, 244);
   font-weight: 700;
 }
+
+.category-link-h4 {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+}
+
+.category-link-h4:hover {
+  color: rgb(33, 88, 244);
+}
+
+.category-link-h4:active {
+  color: rgb(33, 88, 244);
+}
+
+.active-link-h4 {
+  text-decoration: none;
+  font-family: "Source Sans 3", sans-serif;
+  color: rgb(33, 88, 244);
+  font-weight: 1000;
+}

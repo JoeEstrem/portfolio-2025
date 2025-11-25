@@ -7,8 +7,6 @@ import NGaER4 from '../imgs/kohls/NGaET-4.mp4';
 import SBC1 from '../imgs/kohls/SBC-1-1.mp4';
 import SBC4 from '../imgs/kohls/SBC-4-1.mp4';
 
-
-
 import React from 'react';
 
 function Kohls() {

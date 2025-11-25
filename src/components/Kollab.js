@@ -2,7 +2,6 @@ import "./Kollab.css";
 import useFadeInOnScroll from '../components/FadeInOnScroll';
 import useFadeInOnScrollOversized from "./FadeInOnScrollOversized";
 
-
 import React from 'react';
 
 function Kollab() {
