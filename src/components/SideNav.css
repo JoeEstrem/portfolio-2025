@@ -63,3 +63,18 @@
   color: rgb(33, 88, 244);
   font-weight: 1000;
 }
+
+
+/*/ Mobile /*/
+
+@media (max-width: 743px) {
+
+.sidenav {
+  height: 6vh;
+  width: 100vw;
+  padding-left: 24px;
+  padding-top: 0px;
+  background-color: red;
+}
+
+}

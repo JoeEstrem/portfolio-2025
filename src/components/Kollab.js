@@ -1,4 +1,5 @@
 import "./Kollab.css";
+import "../App.css";
 import useFadeInOnScroll from '../components/FadeInOnScroll';
 import useFadeInOnScrollOversized from "./FadeInOnScrollOversized";
 

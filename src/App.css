@@ -283,35 +283,102 @@ h3 {
 
 @media (max-width: 743px) {
 
-.col-3 {
-  grid-column: span 12;
-}
+  /*/ TYPOGRAPHY /*/
 
-.img-square-3-col {
-  aspect-ratio: 1/1;
-  grid-column: span 12;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-}
+  h2 {
+    margin-bottom: -32px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: bolder;
+    grid-column: span 12;
+  }
 
-.img-rectangle-3-col {
-  grid-column: span 12;
-  width: 100%;
-  object-fit: cover;
-}
+  h3 {
+    font-family: figtree;
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 4px;
+  }
 
-.img-rectangle-4-col {
-  background-color: gray;
-  aspect-ratio: 1/1.5;
-  grid-column: span 12;
-  width: 100%;
-  object-fit: cover;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
-}
+  p {
+    font-size: 18px;
+  }
 
-.hide-tablet-size {
-  display: block;
-}
+  .p-note {
+    font-family: figtree;
+    font-size: 14px;
+    font-weight: lighter;
+    color: black;
+    font-style: italic;
+    margin-top: 0px
+  }
+
+  .display-container {
+    margin-left: 0px;
+  }
+
+  .white-text-box {
+    margin-top: 224px;
+    margin-right: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+    grid-column: span 12;
+    width: 100%;
+    text-align: left;
+  }
+
+  .text-block {
+    display: grid;
+    gap: 16px;
+    grid-column: span 12;
+    align-items: end;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+  }
+
+  .col-3 {
+    grid-column: span 12;
+  }
+
+  .col-4 {
+    grid-column: span 12;
+  }
+
+  .img-square-3-col {
+    aspect-ratio: 1/1;
+    grid-column: span 12;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .img-rectangle-3-col {
+    grid-column: span 12;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .img-rectangle-4-col {
+    background-color: gray;
+    aspect-ratio: 1/1.5;
+    grid-column: span 12;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .img-rectangle-4-col-shadow {
+    background-color: gray;
+    aspect-ratio: 1/1.5;
+    grid-column: span 12;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  .hide-tablet-size {
+    display: block;
+  }
 
 }
