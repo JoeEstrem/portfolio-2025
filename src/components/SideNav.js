@@ -1,21 +1,63 @@
 import "./SideNav.css";
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 function SideNav() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const links = [
+    { to: "/HousingJapan", label: "Housing Japan" },
+    { to: "/Kohls", label: "Kohl's" },
+    { to: "/Kollab", label: "Kollab" },
+    { to: "/WaniKani", label: "WaniKani" },
+  ];
+
   return (
+    <div className="sidenav">
 
+      <div className="nav-header">
+        <p className="nav-item">
+          <NavLink
+            to="/"
+            onClick={() => setIsOpen(false)}
+            className={({ isActive }) =>
+              isActive
+                ? "category-link-h4 active-link-h4"
+                : "category-link-h4"
+            }
+          >
+            Joe Estrem
+          </NavLink>
+        </p>
 
-    <div class="sidenav">
+        <button
+          className="hamburger"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle navigation"
+        >
+          {isOpen ? "✕" : "☰"}
+        </button>
+      </div>
 
-      <div>
-        <h4><NavLink to="/" className={({ isActive }) => isActive? "category-link-h4 active-link-h4" : "category-link-h4"}>Joe Estrem</NavLink></h4>
-        <p><NavLink to="/HousingJapan" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Housing Japan</NavLink></p>
-        <p><NavLink to="/Kohls" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Kohl's</NavLink></p>
-        <p><NavLink to="/Kollab" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Kollab</NavLink></p>
-        {/* <p><NavLink to="/PlansTonight" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>Plans Tonight</NavLink></p> */}
-        <p><NavLink to="/WaniKani" className={({ isActive }) => isActive ? "category-link active-link" : "category-link"}>WaniKani</NavLink></p>
+      {/* Links */}
+      <div className={`nav-links ${isOpen ? "open" : ""}`}>
+        {links.map((link) => (
+          <p className="nav-item" key={link.to}>
+            <NavLink
+              to={link.to}
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive
+                  ? "category-link active-link"
+                  : "category-link"
+              }
+            >
+              {link.label}
+            </NavLink>
+          </p>
+        ))}
       </div>
     </div>
   );

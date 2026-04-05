@@ -19,7 +19,7 @@ function App() {
     <Router>
     <div className="App">
       <div className="main-page-container">
-        {/* <SideNav /> */}
+       <SideNav />
         <div className="display-container">
           <ScrollToTop />
           <Routes>
